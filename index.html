@@ -1,10 +1,15 @@
-<html>
-    <head>
-        <title>Danick Zhu Home Page </title>
-    </head>
+---
+layout:     blog
+title:      Danick个人主页
+---
 
-    <body>
-        Hello! Welcome to my homepage
-    <body>
-
-</html>
+    <div class="col-md-8" style="padding-left:0">
+        <ul class="list-unstyled">
+            {% for post in site.posts %}
+                <li class="well">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <div class="title-desc">{{ post.description }}</div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>

@@ -1,0 +1,17 @@
+permalink:  /:title.html
+safe:   true
+auto:   true
+markdown: rdiscount
+pygments:   true
+title:  Danick's Home Page
+comments:   disqus
+
+author:
+    name:   Danick Zhu
+    nickname:   Danick
+    email:  zhugs_2004@163.com
+
+seo:
+    keywords:    jekyll,github,blog
+    description:    Personal web site for Danick Zhu
+
